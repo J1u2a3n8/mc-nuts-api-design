@@ -1,6 +1,6 @@
 # mc-nuts-api-design
 
-> Diseno de API REST en JavaScript
+> REST API Design in JavaScript/Node.js
 
 ![Language](https://img.shields.io/github/languages/top/J1u2a3n8/mc-nuts-api-design)
 ![License](https://img.shields.io/github/license/J1u2a3n8/mc-nuts-api-design)
@@ -8,66 +8,67 @@
 ![Stars](https://img.shields.io/github/stars/J1u2a3n8/mc-nuts-api-design?style=social)
 ![Issues](https://img.shields.io/github/issues/J1u2a3n8/mc-nuts-api-design)
 
-## 📋 Descripción
+## Description
 
-Proyecto backend que muestra competencias en APIs, arquitectura limpia y patrones. Migrado, historial reescrito, documentado para portfolio.
+Well-structured REST API built with Node.js and Express demonstrating API design best practices: resource modeling, HTTP semantics, versioning, error handling, pagination, filtering, and OpenAPI documentation.
 
-## 🏗️ Arquitectura
+## Architecture
 
-Clean Architecture / Layered Architecture
+Layered: Routes → Controllers → Services → Data Access (MongoDB/PostgreSQL)
 
-## 🚀 Inicio Rápido
+## Quick Start
 
-### Prerrequisitos
+### Prerequisites
 
-.NET 8 SDK, Node.js 20+ (para mc-nuts-api-design)
+.NET 8 SDK, Node.js 20+ (for mc-nuts-api-design)
 
-### Instalación
+### Installation
 
 ```bash
-# Clonar
+# Clone
 git clone https://github.com/J1u2a3n8/mc-nuts-api-design.git
 cd mc-nuts-api-design
 
-dotnet restore
-# dotnet build
+npm install
+# npm run dev
 ```
 
-### Uso
+### Usage
 
 ```bash
-dotnet run --project src/
+npm start
+# API at http://localhost:3000/api-docs
 ```
 
-## 🧪 Tests
+## Testing
 
 ```bash
-dotnet test
+npm test
 ```
 
-## 📁 Estructura del Proyecto
+## Project Structure
 
 ```
 mc-nuts-api-design/
-├── src/              # Código fuente principal
-├── tests/            # Tests unitarios/integración
-├── docs/             # Documentación
-├── .github/          # Workflows CI/CD
+├── src/              # Main source code
+├── tests/            # Unit/integration tests
+├── docs/             # Documentation
+├── .github/          # CI/CD workflows
 └── README.md
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-**JavaScript**, Node.js, Express
+JavaScript, Node.js, Express, MongoDB/Mongoose, Joi, Swagger UI, Jest
 
-## 📄 Licencia
+## License
 
-Este proyecto está bajo licencia **MIT** - ver [LICENSE](LICENSE) para detalles.
+This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details.
 
-## 👤 Autor
+## Author
 
 **J1u2a3n8** - [GitHub](https://github.com/J1u2a3n8) - [LinkedIn](https://linkedin.com/in/juanluiscanedo)
 
 ---
 
-⭐ Si este proyecto te fue útil, ¡dale una estrella!
+⭐ If you found this project useful, give it a star!
