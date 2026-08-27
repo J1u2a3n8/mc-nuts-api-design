@@ -1,82 +1,73 @@
-<h1 align="center">MC Nuts Design </h1>
+# mc-nuts-api-design
 
+> Diseno de API REST en JavaScript
 
+![Language](https://img.shields.io/github/languages/top/J1u2a3n8/mc-nuts-api-design)
+![License](https://img.shields.io/github/license/J1u2a3n8/mc-nuts-api-design)
+![Last Commit](https://img.shields.io/github/last-commit/J1u2a3n8/mc-nuts-api-design)
+![Stars](https://img.shields.io/github/stars/J1u2a3n8/mc-nuts-api-design?style=social)
+![Issues](https://img.shields.io/github/issues/J1u2a3n8/mc-nuts-api-design)
 
-![147183119_491843355551038_4736773095611486819_n](https://user-images.githubusercontent.com/74753713/147305398-c567c46c-6f75-489b-8fd0-39c0b7f12df8.jpg)
+## 📋 Descripción
 
+Proyecto backend que muestra competencias en APIs, arquitectura limpia y patrones. Migrado, historial reescrito, documentado para portfolio.
 
-<!-- Status -->
+## 🏗️ Arquitectura
 
-<!-- <h4 align="center"> 
-	🚧  CSS Work 🚀 Under construction...  🚧
-</h4> 
+Clean Architecture / Layered Architecture
 
-<hr> -->
+## 🚀 Inicio Rápido
 
-<p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="https://github.com/J1u2a3n9" target="_blank">Author</a>
-</p>
+### Prerrequisitos
 
-<br>
+.NET 8 SDK, Node.js 20+ (para mc-nuts-api-design)
 
-## ❓ About ##
-
-MCNuts is a company that sells peanuts as snacks, which have many flavors.
-MCNuts needs a website with which it can better manage its products so this website was developed so that it consumes the backend api. 
-
-
-<img source>
-
-
-## 🖼 Features ##
-
-
-:heavy_check_mark: Form
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74753713/147305200-c8c6bc09-558d-411d-b7de-51d9e3bcaf6b.png" width="700" title="menu">
-</p>
-:heavy_check_mark: Menu Page
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74753713/147305194-6ed4aeaa-ef5b-4b7d-9281-d7b21ecaeb2a.png" width="700" title="menu">
-</p>
-:heavy_check_mark: Peanuts Page
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74753713/147305197-40660a49-bbfd-499e-af1f-6857da0c76d7.png" width="700" title="menu">
-</p>
-
-
-
-
-
-
-
-## :rocket: Technologies ##
-
-The following tools were used in this project:
-
-* 📕 HTML
-* 📘 CSS
-* 📒 JavaScript
-
-## 🧠 Requirements ##
-
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) installed.
-
-## ✅ Starting ##
+### Instalación
 
 ```bash
-# Clone this project
-$ git clone https://github.com/J1u2a3n9/MCNutsAPIDesign.git
+# Clonar
+git clone https://github.com/J1u2a3n8/mc-nuts-api-design.git
+cd mc-nuts-api-design
 
-# Run the project
-Use live server
+dotnet restore
+# dotnet build
 ```
 
+### Uso
 
+```bash
+dotnet run --project src/
+```
 
-<a href="#top">Back to top</a>
+## 🧪 Tests
+
+```bash
+dotnet test
+```
+
+## 📁 Estructura del Proyecto
+
+```
+mc-nuts-api-design/
+├── src/              # Código fuente principal
+├── tests/            # Tests unitarios/integración
+├── docs/             # Documentación
+├── .github/          # Workflows CI/CD
+└── README.md
+```
+
+## 🛠️ Tech Stack
+
+**JavaScript**, Node.js, Express
+
+## 📄 Licencia
+
+Este proyecto está bajo licencia **MIT** - ver [LICENSE](LICENSE) para detalles.
+
+## 👤 Autor
+
+**J1u2a3n8** - [GitHub](https://github.com/J1u2a3n8) - [LinkedIn](https://linkedin.com/in/juanluiscanedo)
+
+---
+
+⭐ Si este proyecto te fue útil, ¡dale una estrella!
